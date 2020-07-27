@@ -3,7 +3,6 @@ package com.example.demo.model;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
-import java.io.Serializable;
 import java.util.*;
 
 /**
@@ -11,7 +10,7 @@ import java.util.*;
  */
 
 @Entity
-public class Project implements Serializable {
+public class Project {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)

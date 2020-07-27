@@ -3,11 +3,10 @@ package com.example.demo.model;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
-import java.io.Serializable;
 import java.util.Date;
 
 @Entity
-public class Transition implements Serializable {
+public class Transition {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private long idTransition;

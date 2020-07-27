@@ -2,8 +2,6 @@ package com.example.demo.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.*;
-import java.io.Serializable;
-import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -11,7 +9,7 @@ import java.util.List;
  */
 
 @Entity
-public class Todo implements Serializable {
+public class Todo {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private long idTodo;

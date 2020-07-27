@@ -3,7 +3,6 @@ package com.example.demo.model;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
-import java.io.Serializable;
 import java.util.*;
 
 /**
@@ -12,7 +11,7 @@ import java.util.*;
 
 // Objet User renommé UserAcces car PostgreSQL n'autorise pas la création d'une entité User.
 @Entity(name = "UserAcces")
-public class User implements Serializable {
+public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
