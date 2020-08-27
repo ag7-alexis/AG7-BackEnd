@@ -16,3 +16,22 @@
   Me contacter par mail ou via Linkedin pour avoir le lien.
 </p>
 
+<h3>Back-End</h3>
+<p>
+  La partie Back-End est réalisée en Java 11 avec le Framework Spring. 
+  J'utilise principalement SpringBoot et SpringSecurity pour sécuriser les requêtes avec des JWT.
+</p>
+
+<h3>Front-End</h3>
+
+<p>
+  Le Front-End est fait avec Angular 8 avec la précieuse aide de Bootstrap et d'AngularMaterial.
+</p>
+<p>
+  <a href="https://github.com/ag7-alexis/public-ag7-project-frontend">github</a>
+</p>
+
+<h3>Base de données</h3>
+<p>
+  J'utilise une base de données PostgreSQL, la persistance des données est assuré à l'aide de JPA et Hibernate.
+</p>
