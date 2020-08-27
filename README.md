@@ -35,3 +35,15 @@
 <p>
   J'utilise une base de données PostgreSQL, la persistance des données est assuré à l'aide de JPA et Hibernate.
 </p>
+
+<h2>Me contacter 📫 </h2>
+
+<p>
+  Mail : <a href="mailto:guay.alexis7@gmail.com">guay.alexis7@gmail.com</a>
+</p>
+<p>
+  Portfolio : <a href="https://ag7-alexis.github.io/">https://ag7-alexis.github.io/</a>
+</p>
+<p>
+  Linkedin : <a href="https://www.linkedin.com/in/guayalexis/">@guayalexis</a>
+</p>
